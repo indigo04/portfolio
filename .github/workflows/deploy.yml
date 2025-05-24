@@ -21,9 +21,9 @@ jobs:
           node-version: "20"
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
-      - name: Build project
+      - name: Build static project (auto-export)
         run: npm run build
 
       - name: Deploy to GitHub Pages
