@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export default async function Contact() {
-  const imageStyles = "hover:scale-125 duration-500 h-auto w-auto";
+  const imageStyles = "hover:scale-125 duration-500";
   const textStyles = "duration-500 hover:-translate-y-0.5";
   return (
     <section
@@ -12,7 +12,7 @@ export default async function Contact() {
       <div className="relative">
         <a href="mailto:fs.shylin.vladyslav@gmail.com" className="flex gap-2">
           <Image
-            src={'/portfolio' + "/gmail.png"}
+            src={"/portfolio" + "/gmail.png"}
             alt="mail_link"
             width={20}
             height={20}
@@ -25,7 +25,7 @@ export default async function Contact() {
       <div>
         <a href="tel:+380935522576" className="flex gap-2">
           <Image
-            src={'/portfolio' + "/phone_icon.png"}
+            src={"/portfolio" + "/phone_icon.png"}
             alt="phone_link"
             width={20}
             height={20}
@@ -38,7 +38,7 @@ export default async function Contact() {
       <div className="relative">
         <a href="https://web.telegram.org/k/#@xeomzi" className="flex gap-2">
           <Image
-            src={'/portfolio' + "/telegram_icon.webp"}
+            src={"/portfolio" + "/telegram_icon.webp"}
             alt="telegram_link"
             width={20}
             height={20}

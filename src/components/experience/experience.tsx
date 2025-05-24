@@ -11,7 +11,6 @@ export default async function Experience() {
   const wrapperStyles =
     "flex flex-col xl:flex-row gap-5 items-center flex-wrap justify-center xl:justify-start";
   const iconsStyles = "flex gap-2 items-center";
-  const imageStyles = "hover:scale-125 duration-500 w-auto h-auto";
   return (
     <section className="flex container flex-col gap-5" id="experience">
       <h1 className="text-3xl font-semibold text-gray-800 text-center xl:text-left">
@@ -33,7 +32,6 @@ export default async function Experience() {
                     width={20}
                     height={20}
                     alt="link"
-                    className={imageStyles}
                   />
                 </a>
                 {project.live && (
@@ -43,7 +41,6 @@ export default async function Experience() {
                       width={25}
                       height={25}
                       alt="link"
-                      className={imageStyles}
                     />
                   </a>
                 )}
@@ -85,11 +82,9 @@ export default async function Experience() {
                 <a href={project.github}>
                   <Image
                     src={'/portfolio' + "/github.png"}
-                    unoptimized
                     width={20}
                     height={20}
                     alt="link"
-                    className={imageStyles}
                   />
                 </a>
               </div>
