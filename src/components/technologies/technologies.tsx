@@ -6,10 +6,10 @@ export default async function Technologies() {
   const styles = "flex border-2 px-4 py-2 gap-1 rounded-3xl items-center";
   return (
     <section className="flex flex-col gap-5 container mx-auto" id="technologies">
-      <h1 className="text-3xl font-semibold text-gray-800 text-center xl:text-left">
+      <h1 className="text-3xl font-semibold text-gray-800 text-center lg:text-left">
         Technologies
       </h1>
-      <ul className="flex flex-wrap gap-1 xl:gap-3">
+      <ul className="flex flex-wrap gap-1 lg:gap-3">
         {technologies.map(({ name, icon, border, width = 15, height = 15 }) => (
           <li key={name} className={twMerge(styles, border)}>
             <Image

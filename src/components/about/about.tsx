@@ -4,9 +4,9 @@ export default async function About() {
   return (
     <section
       id="about"
-      className="flex container mx-auto items-center flex-wrap gap-5 xl:gap-0"
+      className="flex container mx-auto items-center flex-wrap gap-5 lg:gap-0"
     >
-      <div className="flex flex-col w-[100%] xl:w-[50%] gap-5">
+      <div className="flex flex-col w-[100%] lg:w-[50%] gap-5">
         <h1 className="text-gray-800 font-semibold text-3xl text-center xl:text-left">
           About me
         </h1>
@@ -21,7 +21,7 @@ export default async function About() {
           code, and delivering high-quality digital experiences.
         </p>
       </div>
-      <div className="flex justify-center items-center w-[100%] xl:w-[50%]">
+      <div className="flex justify-center items-center w-[100%] lg:w-[50%]">
         <Image
           src={'/portfolio' + "/my_photo.png"}
           alt="photo"

@@ -11,7 +11,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main className="flex justify-center items-center flex-col overflow-hidden gap-10 xl:gap-25">
+    <main className="flex justify-center items-center flex-col overflow-hidden gap-10 lg:gap-25">
       <Header />
       <About />
       <Technologies />
