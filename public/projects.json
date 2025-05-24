@@ -1,0 +1,44 @@
+[
+  {
+    "id": 0,
+    "title": "Bike Modern - A stylish and responsive landing page for a bike rental service",
+    "technologies": "HTML-CSS-Sass",
+    "github": "https://github.com/indigo04/my_landing",
+    "live": "https://indigo04.github.io/my_landing"
+  },
+  {
+    "id": 1,
+    "title": "2048 Reloaded - A modern, responsive remake of the classic 2048 puzzle game",
+    "technologies": "HTML-CSS-Sass-Javascript",
+    "github": "https://github.com/indigo04/my_2048",
+    "live": "https://indigo04.github.io/my_2048"
+  },
+  {
+    "id": 2,
+    "title": "ReactPhone Hub - A sleek catalog of mobile devices built with React and dynamic routing",
+    "technologies": "HTML-CSS-Sass-Javascript-Typescript-React-Redux",
+    "github": "https://github.com/indigo04/my_catalog",
+    "live": "https://indigo04.github.io/my_catalog/#/"
+  },
+  {
+    "id": 3,
+    "title": "SecureAuth API - A backend authentication API providing secure user authentication and authorization",
+    "technologies": "Javascript-Typescript-Node.js-Express-PostgreSQL-Sequelize",
+    "github": "https://github.com/indigo04/auth-server",
+    "live": null
+  },
+  {
+    "id": 4,
+    "title": "ChatSync Api - Chat server for handling user messages and connections",
+    "technologies": "Javascript-Typescript-Node.js-Express-PostgreSQL-Sequelize",
+    "github": "https://github.com/indigo04/chat-server",
+    "live": null
+  },
+  {
+    "id": 5,
+    "title": "ChatSphere - A full-stack chat application with a modern UI and real-time communication",
+    "technologies": "HTML-CSS-Sass-Bulma-Javascript-Typescript-Vue-Node.js-Express-PostgreSQL-Sequelize-Websocket",
+    "github": "https://github.com/indigo04/chat-app-server-ui",
+    "live": null
+  }
+]
