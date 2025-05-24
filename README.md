@@ -1,5 +1,16 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+<h2>Technologies:</h2> 
+<ul>
+  <li><b>Html</b></li>
+  <li><b>Css</b></li>
+  <li><b>Tailwind Css</b></li>
+  <li><b>JS</b></li>
+  <li><b>TypeScript</b></li>
+  <li><b>React</b></li>
+  <li><b>Next.js</b></li>
+</ul>
+
 ## Getting Started
 
 First, run the development server:
