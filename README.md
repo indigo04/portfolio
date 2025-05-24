@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-<h3>Preview: https://indigo04.github.io/my_catalog/#/ </h3>
+<h3>Preview: https://indigo04.github.io/portfolio/ </h3>
 
 <h2>Technologies:</h2> 
 <ul>
