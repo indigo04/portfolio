@@ -14,7 +14,7 @@ export default async function Technologies() {
         {technologies.map(({ name, icon, border, width = 15, height = 15 }) => (
           <li key={name} className={twMerge(styles, border)}>
             <Image
-              src={process.env.NEXT_PUBLIC_BASE_PATH + icon}
+              src={'/portfolio' + icon}
               alt={`${name.toLowerCase()}-icon`}
               width={width}
               height={height}

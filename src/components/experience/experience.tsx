@@ -29,8 +29,7 @@ export default async function Experience() {
               <div className={iconsStyles}>
                 <a href={project.github}>
                   <Image
-                    src={process.env.NEXT_PUBLIC_BASE_PATH + "/github.png"}
-                    unoptimized
+                    src={'/portfolio' + "/github.png"}
                     width={20}
                     height={20}
                     alt="link"
@@ -40,8 +39,7 @@ export default async function Experience() {
                 {project.live && (
                   <a href={project.live}>
                     <Image
-                      src={process.env.NEXT_PUBLIC_BASE_PATH + "/eye.png"}
-                      unoptimized
+                      src={'/portfolio' + "/eye.png"}
                       width={25}
                       height={25}
                       alt="link"
@@ -86,7 +84,7 @@ export default async function Experience() {
               <div className={iconsStyles}>
                 <a href={project.github}>
                   <Image
-                    src={process.env.NEXT_PUBLIC_BASE_PATH + "/github.png"}
+                    src={'/portfolio' + "/github.png"}
                     unoptimized
                     width={20}
                     height={20}

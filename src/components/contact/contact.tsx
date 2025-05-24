@@ -12,7 +12,7 @@ export default async function Contact() {
       <div className="relative">
         <a href="mailto:fs.shylin.vladyslav@gmail.com" className="flex gap-2">
           <Image
-            src={process.env.NEXT_PUBLIC_BASE_PATH + "/gmail.png"}
+            src={'/portfolio' + "/gmail.png"}
             alt="mail_link"
             width={20}
             height={20}
@@ -25,7 +25,7 @@ export default async function Contact() {
       <div>
         <a href="tel:+380935522576" className="flex gap-2">
           <Image
-            src={process.env.NEXT_PUBLIC_BASE_PATH + "/phone_icon.png"}
+            src={'/portfolio' + "/phone_icon.png"}
             alt="phone_link"
             width={20}
             height={20}
@@ -38,7 +38,7 @@ export default async function Contact() {
       <div className="relative">
         <a href="https://web.telegram.org/k/#@xeomzi" className="flex gap-2">
           <Image
-            src={process.env.NEXT_PUBLIC_BASE_PATH + "/telegram_icon.webp"}
+            src={'/portfolio' + "/telegram_icon.webp"}
             alt="telegram_link"
             width={20}
             height={20}

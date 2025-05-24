@@ -23,7 +23,7 @@ export default async function About() {
       </div>
       <div className="flex justify-center items-center w-[100%] xl:w-[50%]">
         <Image
-          src={process.env.NEXT_PUBLIC_BASE_PATH + "/my_photo.png"}
+          src={'/portfolio' + "/my_photo.png"}
           alt="photo"
           width={175}
           height={175}
