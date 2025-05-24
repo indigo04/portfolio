@@ -1,0 +1,56 @@
+[
+  { "name": "HTML", "icon": "/html.png", "border": "border-amber-600" },
+  { "name": "CSS", "icon": "/css.jpg", "border": "border-blue-500" },
+  { "name": "Sass", "icon": "/sass.png", "border": "border-pink-500" },
+  {
+    "name": "Tailwind CSS",
+    "icon": "/tailwind.png",
+    "border": "border-cyan-500"
+  },
+  {
+    "name": "JavaScript",
+    "icon": "/javascript.webp",
+    "border": "border-yellow-500",
+    "width": 25,
+    "height": 25
+  },
+  {
+    "name": "TypeScript",
+    "icon": "/typescript.png",
+    "border": "border-cyan-700"
+  },
+  {
+    "name": "React",
+    "icon": "/react.png",
+    "border": "border-cyan-300",
+    "width": 25,
+    "height": 25
+  },
+  {
+    "name": "Redux",
+    "icon": "/redux.png",
+    "border": "border-purple-600",
+    "width": 20,
+    "height": 20
+  },
+  { "name": "Next.js", "icon": "/next-js.png" },
+  { "name": "Node.js", "icon": "/node.png", "border": "border-emerald-600" },
+  {
+    "name": "Express",
+    "icon": "/express.png",
+    "border": "border-gray-600",
+    "width": 25,
+    "height": 25
+  },
+  {
+    "name": "PostgreSQL",
+    "icon": "/postgres.png",
+    "border": "border-cyan-800"
+  },
+  {
+    "name": "Sequelize",
+    "icon": "/sequelize.png",
+    "border": "border-cyan-700"
+  },
+  { "name": "WebSocket", "icon": "/websocket.jpg", "border": "border-gray-300" }
+]
