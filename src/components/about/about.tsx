@@ -2,9 +2,14 @@ import Image from "next/image";
 
 export default async function About() {
   return (
-    <section id="about" className="flex container items-center flex-wrap gap-5 xl:gap-0">
+    <section
+      id="about"
+      className="flex container items-center flex-wrap gap-5 xl:gap-0"
+    >
       <div className="flex flex-col w-[100%] xl:w-[50%] gap-5">
-        <h1 className="text-gray-800 font-semibold text-3xl text-center xl:text-left">About me</h1>
+        <h1 className="text-gray-800 font-semibold text-3xl text-center xl:text-left">
+          About me
+        </h1>
         <p className="font-medium text-center xl:text-left">
           Hey, i am Vladyslav. Full Stack Developer developer with hands-on
           experience in both frontend and backend development. Proficient in
@@ -17,7 +22,13 @@ export default async function About() {
         </p>
       </div>
       <div className="flex justify-center items-center w-[100%] xl:w-[50%]">
-        <Image src='/my_photo.png' alt="photo" width={175} height={175} unoptimized className="rounded-full"/>
+        <Image
+          src={process.env.NEXT_PUBLIC_BASE_PATH + "/my_photo.png"}
+          alt="photo"
+          width={175}
+          height={175}
+          className="rounded-full"
+        />
       </div>
     </section>
   );
