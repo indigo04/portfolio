@@ -17,7 +17,7 @@ export default async function About() {
         </p>
       </div>
       <div className="flex justify-center items-center w-[100%] xl:w-[50%]">
-        <Image src='/my_photo.png' alt="photo" width={175} height={175} className="rounded-full"/>
+        <Image src='/my_photo.png' alt="photo" width={175} height={175} unoptimized className="rounded-full"/>
       </div>
     </section>
   );

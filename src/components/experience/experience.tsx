@@ -30,6 +30,7 @@ export default async function Experience() {
                 <a href={project.github}>
                   <Image
                     src="/github.png"
+                    unoptimized
                     width={20}
                     height={20}
                     alt="link"
@@ -40,6 +41,7 @@ export default async function Experience() {
                   <a href={project.live}>
                     <Image
                       src="/eye.png"
+                      unoptimized
                       width={25}
                       height={25}
                       alt="link"
@@ -85,6 +87,7 @@ export default async function Experience() {
                 <a href={project.github}>
                   <Image
                     src="/github.png"
+                    unoptimized
                     width={20}
                     height={20}
                     alt="link"
