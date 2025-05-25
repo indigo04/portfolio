@@ -12,7 +12,7 @@ export default async function Experience() {
     "flex flex-col lg:flex-row gap-5 items-center flex-wrap justify-center lg:justify-start";
   const iconsStyles = "flex gap-2 items-center";
   return (
-    <section className="flex container mx-auto flex-col gap-5 max-w-screen-lg" id="experience">
+    <section className="flex container mx-auto flex-col gap-5 xl:max-w-[1200px]" id="experience">
       <h1 className="text-3xl font-semibold text-gray-800 text-center lg:text-left">
         Experience
       </h1>
