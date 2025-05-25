@@ -4,7 +4,7 @@ export default async function About() {
   return (
     <section
       id="about"
-      className="flex container mx-auto items-center flex-wrap gap-5 lg:gap-0 xl:max-w-[1200px]"
+      className="flex container mx-auto items-center flex-wrap gap-5 md:gap-0 xl:max-w-[1200px]"
     >
       <div className="flex flex-col w-[100%] md:w-[50%] gap-5">
         <h1 className="text-gray-800 font-semibold text-3xl text-center xl:text-left">
