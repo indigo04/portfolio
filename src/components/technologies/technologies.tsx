@@ -5,7 +5,7 @@ import technologies from "../../../public/technologies.json";
 export default async function Technologies() {
   const styles = "flex border-2 px-4 py-2 gap-1 rounded-3xl items-center";
   return (
-    <section className="flex flex-col gap-5 container mx-auto md:px-5 xl:px-0 xl:max-w-[1200px]" id="technologies">
+    <section className="flex flex-col gap-5 container mx-auto px-5 xl:px-0 xl:max-w-[1200px]" id="technologies">
       <h1 className="text-3xl font-semibold text-gray-800 text-center md:text-left">
         Technologies
       </h1>
