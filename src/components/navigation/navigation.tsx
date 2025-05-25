@@ -7,6 +7,7 @@ export async function Navigation() {
                 <li className={linkStyles}><a href='#technologies'>Technologies</a></li>
                 <li className={linkStyles}><a href='#experience'>Experience</a></li>
                 <li className={linkStyles}><a href='#contact'>Contact</a></li>
+                <li className={linkStyles}><a href='/portfolio/resume.pdf' download>Resume</a></li>
             </ul>
         </nav>
     )
