@@ -5,18 +5,18 @@ export default async function Experience() {
   const front = [...projects].slice(0, 3);
   const back = [...projects].slice(3);
   const titleStyles =
-    "text-xl font-semibold text-gray-800 text-center lg:text-left";
+    "text-xl font-semibold text-gray-800 text-center md:text-left";
   const techStyles =
-    "text-xl font-semibold text-gray-600 text-center lg:text-left";
+    "text-xl font-semibold text-gray-600 text-center md:text-left";
   const wrapperStyles =
-    "flex flex-col lg:flex-row gap-5 items-center flex-wrap justify-center lg:justify-start";
+    "flex flex-col lg:flex-row gap-5 items-center flex-wrap justify-center md:justify-start";
   const iconsStyles = "flex gap-2 items-center";
   return (
     <section className="flex container mx-auto flex-col gap-5 xl:max-w-[1200px]" id="experience">
       <h1 className="text-3xl font-semibold text-gray-800 text-center lg:text-left">
         Experience
       </h1>
-      <h2 className="text-xl font-semibold text-gray-600 text-center lg:text-left">
+      <h2 className="text-xl font-semibold text-gray-600 text-center md:text-left">
         Fullstack Developer | From 2023 | Freelance, Leetcode, Codewars
       </h2>
       <article className="flex flex-col gap-5">
@@ -48,7 +48,7 @@ export default async function Experience() {
             </div>
           </div>
         ))}
-        <div className="flex flex-col gap-2 text-center lg:text-left">
+        <div className="flex flex-col gap-2 text-center md:text-left">
           <p>
             - Developed responsive and dynamic user interfaces using React and
             TypeScript
@@ -91,7 +91,7 @@ export default async function Experience() {
             </div>
           </div>
         ))}
-        <div className="flex flex-col gap-2 text-center lg:text-left">
+        <div className="flex flex-col gap-2 text-center md:text-left">
           <p>
             - Designed and implemented RESTful APIs for scalable web
             applications

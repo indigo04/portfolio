@@ -6,7 +6,7 @@ export default async function Technologies() {
   const styles = "flex border-2 px-4 py-2 gap-1 rounded-3xl items-center";
   return (
     <section className="flex flex-col gap-5 container mx-auto xl:max-w-[1200px]" id="technologies">
-      <h1 className="text-3xl font-semibold text-gray-800 text-center lg:text-left">
+      <h1 className="text-3xl font-semibold text-gray-800 text-center md:text-left">
         Technologies
       </h1>
       <ul className="flex flex-wrap gap-1 lg:gap-3">
