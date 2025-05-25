@@ -9,10 +9,10 @@ export default async function Experience() {
   const techStyles =
     "text-xl font-semibold text-gray-600 text-center md:text-left";
   const wrapperStyles =
-    "flex flex-col lg:flex-row gap-5 items-center flex-wrap justify-center md:justify-start";
+    "flex flex-col md:flex-row gap-5 items-center flex-wrap justify-center md:justify-start";
   const iconsStyles = "flex gap-2 items-center";
   return (
-    <section className="flex container mx-auto flex-col gap-5 xl:max-w-[1200px]" id="experience">
+    <section className="flex container mx-auto flex-col gap-5 md:px-5 xl:px-0 xl:max-w-[1200px]" id="experience">
       <h1 className="text-3xl font-semibold text-gray-800 text-center lg:text-left">
         Experience
       </h1>

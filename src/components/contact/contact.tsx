@@ -5,7 +5,7 @@ export default async function Contact() {
   const textStyles = "duration-500 hover:-translate-y-0.5";
   return (
     <section
-      className="flex container mx-auto border-2 border-black rounded-t-3xl p-4 justify-between items-center flex-wrap flex-col md:flex-row gap-2 lg:gap-0 xl:max-w-[1200px]"
+      className="flex container mx-auto border-2 border-black rounded-t-3xl p-4 justify-between items-center flex-wrap flex-col md:flex-row gap-2 md:gap-0 xl:max-w-[1200px]"
       id="contact"
     >
       <h1 className="text-3xl font-semibold text-gray-800">Contact Me:</h1>
